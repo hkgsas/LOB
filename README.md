@@ -52,14 +52,4 @@ Please refer to the [ReadMe.txt](https://github.com/hkgsas/LOB/blob/master/lob_m
 ### Results
 
 0. Model performance metrics for different horizons computed on the test folds
-
-	Method|mean Acc(%) 15/class|mean Acc(%) 30/class|mean Acc(%) 45/class|mean Acc(%) 60/class
-	:---:|:---:|:---:|:---:|:---:
-	[M-HMP](http://rse-lab.cs.washington.edu/papers/multipath-sparse-coding-cvpr-13.pdf)|40.5 ± 0.4|48.0 ± 0.2|51.9 ± 0.2|55.2 ± 0.3
-	[Z.&F. Net](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)|65.7 ± 0.2|70.6 ± 0.2|72.7 ± 0.4|74.2 ± 0.3
-	[VGG-19](https://arxiv.org/abs/1409.1556)|-|-|-|85.1 ± 0.3
-	[VGG-19 + GoogleNet + AlexNet](https://arxiv.org/abs/1506.02565)|-|-|-|86.1
-	[VGG-19 + VGG-16](https://arxiv.org/abs/1409.1556)|-|-|-|86.2 ± 0.3
-	Fine-tuning w/o source domain|76.4 ± 0.1|81.2 ± 0.2|83.5 ± 0.2|86.4 ± 0.3
-	Selective Joint FT|80.5 ± 0.3|83.8 ± 0.5|87.0 ± 0.1|89.1 ± 0.2
-
+        ![Results](https://github.com/hkgsas/LOB/blob/master/results.png)
