@@ -1,14 +1,14 @@
-# fewshot-egnn
+# LOB Modeling
 
 ### Introduction
 
-The current project page provides pytorch code that implements the following CVPR2019 paper:   
-**Title:**      "Edge-labeling Graph Neural Network for Few-shot Learning"    
-**Authors:**     Jongmin Kim, Taesup Kim, Sungwoong Kim, Chang D.Yoo
+The current project page provides pytorch code that implements the following paper:   
+**Title:**      "Benchmark Dataset for Short-Term Market Prediction of Limit Order Book in China Markets"    
+**Authors:**     Charles Huang, Weifeng Ge, Hongsong Chou, Xin Du
 
-**Institution:** KAIST, KaKaoBrain     
-**Code:**        https://github.com/khy0809/fewshot-egnn  
-**Arxiv:**       https://arxiv.org/abs/1905.01436
+**Institution:** FinAI Laboratory, Hong Kong Graduate School of Advanced Studies     
+**Code:**        https://github.com/hkgsas/LOB/tree/master/lob_modeling  
+**Paper:**       https://github.com/hkgsas/LOB/blob/master/Benchmark%20Dataset%20for%20Short-Term%20Market%20Prediction%20of%20Limit%20Order%20Book%20in%20China%20Markets%202020%20Nov%20v3.pdf
 
 **Abstract:**
 In this paper, we propose a novel edge-labeling graph
