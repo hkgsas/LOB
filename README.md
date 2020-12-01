@@ -9,7 +9,7 @@ contact@gsas.edu.hk
 
 ### Table of Contents
 0. [Introduction](#introduction)
-0. [Citation](#citation)
+0. [Abstract](#abstract)
 0. [Pipeline](#pipeline)
 0. [Codes and Installation](#codes-and-installation)
 0. [Models](#models)
@@ -24,7 +24,7 @@ This repository contains the dataset and [codes](https://github.com/hkgsas/LOB/t
 0. All algorithms are implemented based on the deep learning framework [PyTorch](https://pytorch.org/).
 0. Our PyTorch version is 1.7.0. If you are in a lower version, please modify the codes accordingly.
 
-### Citation
+### Abstract
 
 If you use these codes and models in your research, please cite:
 
