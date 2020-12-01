@@ -51,46 +51,7 @@ Please refer to the [ReadMe.txt](https://github.com/hkgsas/LOB/blob/master/lob_m
 
 ### Results
 
-0. Multi crop testing accuracy on Stanford Dogs 120 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
-
-	Method|mean Accuracy(%)
-	:---:|:---:
-	[HAR-CNN](http://www.linyq.com/hyper-cvpr2015.pdf)|49.4
-	[Local Alignment](https://link.springer.com/article/10.1007/s11263-014-0741-5)|57.0
-	[Multi Scale Metric Learning](https://arxiv.org/abs/1402.0453)|70.3
-	[MagNet](https://arxiv.org/abs/1511.05939)|75.1
-	[Web Data + Original Data](https://arxiv.org/abs/1511.06789)|85.9
-	Target Only Training from Scratch|53.8
-	Selective Joint Training from Scratch|83.4
-	Fine-tuning w/o source domain|80.4
-	Selective Joint FT with all source samples|85.6
-	Selective Joint FT with random source samples|85.5
-	Selective Joint FT w/o iterative NN retrieval|88.3
-	Selective Joint FT with Gabor filter bank|87.5
-	Selective Joint FT|90.2
-	Selective Joint FT with Model Fusion|90.3
-	
-0. Multi crop testing accuracy on Oxford Flowers 102 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
-
-	Method|mean Accuracy(%)
-	:---:|:---:
-	[MPP](http://ieeexplore.ieee.org/document/7301274/)|91.3
-	[Multi-model Feature Concat](https://arxiv.org/abs/1406.5774)|91.3
-	[MagNet](https://arxiv.org/abs/1511.05939)|91.4
-	[VGG-19 + GoogleNet + AlexNet](https://arxiv.org/abs/1506.02565)|94.5
-	Target Only Training from Scratch|58.2
-	Selective Joint Training from Scratch|80.6
-	Fine-tuning w/o source domain|90.2
-	Selective Joint FT with all source samples|93.4
-	Selective Joint FT with random source samples|93.2
-	Selective Joint FT w/o iterative NN retrieval|94.2
-	Selective Joint FT with Gabor filter bank|93.8
-	Selective Joint FT|94.7
-	Selective Joint FT with Model Fusion|95.8
-	[VGG-19 + Part Constellation Model](https://arxiv.org/abs/1504.08289)|95.3
-	Selective Joint FT with val set|97.0
-
-0. Multi crop testing accuracy on Caltech 256 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
+0. Model performance metrics for different horizons computed on the test folds
 
 	Method|mean Acc(%) 15/class|mean Acc(%) 30/class|mean Acc(%) 45/class|mean Acc(%) 60/class
 	:---:|:---:|:---:|:---:|:---:
@@ -102,17 +63,3 @@ Please refer to the [ReadMe.txt](https://github.com/hkgsas/LOB/blob/master/lob_m
 	Fine-tuning w/o source domain|76.4 ± 0.1|81.2 ± 0.2|83.5 ± 0.2|86.4 ± 0.3
 	Selective Joint FT|80.5 ± 0.3|83.8 ± 0.5|87.0 ± 0.1|89.1 ± 0.2
 
-0. Multi crop testing accuracy on MIT Indoor 67 (in the same manner with that in [VGG-net](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)):
-
-	Method|mean Accuracy(%)
-	:---:|:---:
-	[MetaObject-CNN](https://arxiv.org/abs/1510.01440)|78.9
-	[MPP + DFSL](https://pdfs.semanticscholar.org/33d6/a99d497540a17783d237013483dbfa506cd7.pdf)|80.8
-	[VGG-19 + FV](https://www.robots.ox.ac.uk/~vgg/publications/2015/Cimpoi15a/cimpoi15a.pdf)|81.0
-	[VGG-19 + GoogleNet](https://arxiv.org/abs/1506.02565)|84.7
-	[Multi Scale + Multi Model Ensemble](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Herranz_Scene_Recognition_With_CVPR_2016_paper.pdf)|86.0
-	Fine-tuning w/o source domain|81.7
-	Selective Joint FT with ImageNet|82.8
-	Selective Joint FT with Places|85.8
-	Selective Joint FT with hybrid data|85.5
-	Average the output of Places and hybrid data|86.9
