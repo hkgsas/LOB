@@ -47,23 +47,7 @@ High-Frequency Trading, Limit Order Book, Artificial Intelligence, Machine Learn
 	![CNN-LSTM](https://github.com/hkgsas/LOB/blob/master/cnnlstm.png)
 
 ### Installation and Usage
-0. Add new layers into Caffe:
-	- [caffe.proto](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
-	- [MergeData](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/merge_data_layer.hpp)
-	- [SplitData](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/split_data_layer.hpp)
-	- [RandomCropBoostedData](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/random_crop_boosted_data_layer.hpp)
-	- [FeatureStatistics](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/feature_statistics_layer.hpp)
-	- [NormalKnnMatch](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/normal_knn_match_layer.hpp)
-	- [RefinedHistFeature](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/refined_hist_feature_layer.hpp)
-	- [Residual](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/residual_layer.hpp)
-
-0. Image Retrieval:
-	- [get the features statistics](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/tree/master/selective_joint_ft/image_retrieval/feature_stats)
-	- [extract histogram features](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/tree/master/selective_joint_ft/image_retrieval/feature_extraction)
-	- [online nearest neighbor searching](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/tree/master/selective_joint_ft/image_retrieval/knn_searching)
-	
-0. Selective Joint Fine-tuning:
-	- [joint fine-tuning](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/tree/master/selective_joint_ft/joint_training)
+Please refer to the ReadMe.txt in ./lob_modeling to install and run experiments.
 
 ### Models
 
