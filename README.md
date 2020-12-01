@@ -26,15 +26,7 @@ This repository contains the dataset and [codes](https://github.com/hkgsas/LOB/t
 
 ### Abstract
 
-If you use these codes and models in your research, please cite:
-
-       @InProceedings{Ge_2017_CVPR,
-               author = {Ge, Weifeng and Yu, Yizhou},
-               title = {Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-Tuning},
-               booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-               month = {July},
-               year = {2017}
-       }
+Limit Order Book (LOB) has generated “big financial data” for analysis and prediction from both academic community and industry practitioners. This paper presents a benchmark LOB dataset of China stock market, covering a few thousand stocks for the period of June to September 2020. Experiment protocols are designed for model performance evaluation: at the end of every second, to forecast the upcoming volume-weighted average price (VWAP) change and volume over 12 horizons ranging from 1 second to 300 seconds. Results based on linear regression model and state-of-the-art deep learning models are compared. Practical short-term trading strategy framework based on the alpha signal generated is presented.
 
 
 ### Pipeline
