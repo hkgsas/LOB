@@ -32,19 +32,19 @@ tt.arg.dataset_root = ''
 
 ```
 # ************************** linear regression *****************************
-$ CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset linear_regression --device 0 2>&1 | tee loss.log
+$ CUDA_VISIBLE_DEVICES=0 python3 train.py --model linear_regression --device 0 2>&1 | tee loss.log
 
 # ************************ multilayer perceptron ***************************
-$ CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset mlp --device 0 2>&1 | tee loss.log
+$ CUDA_VISIBLE_DEVICES=0 python3 train.py --model mlp --device 0 2>&1 | tee loss.log
 
 # ******************************** LSTM ************************************
-$ CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset lstm --device 0 2>&1 | tee loss.log
+$ CUDA_VISIBLE_DEVICES=0 python3 train.py --model lstm --device 0 2>&1 | tee loss.log
 
 # ********************************* CNN ************************************
-$ CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset cnn --device 0 2>&1 | tee loss.log
+$ CUDA_VISIBLE_DEVICES=0 python3 train.py --model cnn --device 0 2>&1 | tee loss.log
 
 # ****************************** CNN-LSTM **********************************
-$ CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset cnn_lstm --device 0 2>&1 | tee loss.log
+$ CUDA_VISIBLE_DEVICES=0 python3 train.py --model cnn_lstm --device 0 2>&1 | tee loss.log
 
 ```
 
