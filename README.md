@@ -47,20 +47,7 @@ High-Frequency Trading, Limit Order Book, Artificial Intelligence, Machine Learn
 	![CNN-LSTM](https://github.com/hkgsas/LOB/blob/master/cnnlstm.png)
 
 ### Installation and Usage
-Please refer to the ReadMe.txt in ./lob_modeling to install and run experiments.
-
-### Models
-
-0. Visualizations of network structures (tools from [ethereon](http://ethereon.github.io/netscope/quickstart.html)):
-	- [Selective Joint Fine-tuning: ResNet-152] (http://ethereon.github.io/netscope/#/gist/8bdda026e3391eacfa43cc24f4f4a9ff)
-
-0. Model files:
-	- ResNet 152 Net pretrained on ImageNet ILSVRC 2012: [deploy](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108),  [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZRTNyRkdkNzBnRVU).
-	- ResNet 152 Net pretrained on Places 205: [deploy](https://gist.github.com/ZYYSzj/c5c80129db55594238f16c10a3f8e108), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZRTNyRkdkNzBnRVU).
-	- Stanford Dogs 120: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZR1ZkazQxWEZ2TGc).
-	- Oxford Flowers 102: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZdGp4dXk2RUpXNG8).
-	- Caltech 256: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZSjZSSFVmQ3R0TDA).
-	- Mit Indoor 67: [deploy](https://gist.github.com/ZYYSzj/8bdda026e3391eacfa43cc24f4f4a9ff), [model](https://drive.google.com/drive/folders/0B3sl2RWJv33ZWUFwNk1wMnZhaTg).
+Please refer to the [ReadMe.txt](https://github.com/hkgsas/LOB/blob/master/lob_modeling/README.md) in ./lob_modeling to install and run experiments.
 
 ### Results
 
