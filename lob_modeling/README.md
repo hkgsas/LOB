@@ -52,10 +52,16 @@ $ CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset cnn_lstm --device 0 2>&1 | t
 Please set these parameters accordingly.
     ```
     tt.arg.model = 'cnn_lstm' if tt.arg.model is None else tt.arg.model
+    
     tt.arg.input_size = 124 if tt.arg.input_size is None else tt.arg.input_size
+    
     tt.arg.class_num  = 5 if tt.arg.class_num is None else tt.arg.class_num 
+    
     tt.arg.epoch = 20 if tt.arg.epoch is None else tt.arg.epoch    
+    
     tt.arg.timestep = 3 if tt.arg.timestep is None else tt.arg.timestep
+    
     tt.arg.sequence_len = 50 if tt.arg.sequence_len is None else tt.arg.sequence_len
+    
     tt.arg.model_type = None if tt.arg.model_type is None else tt.arg.model_type
     ```
