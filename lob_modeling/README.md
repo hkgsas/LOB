@@ -11,46 +11,14 @@ The current project page provides pytorch code that implements the following pap
 **Paper:**       https://github.com/hkgsas/LOB/blob/master/Benchmark%20Dataset%20for%20Short-Term%20Market%20Prediction%20of%20Limit%20Order%20Book%20in%20China%20Markets%202020%20Nov%20v3.pdf
 
 **Abstract:**
-In this paper, we propose a novel edge-labeling graph
-neural network (EGNN), which adapts a deep neural network
-on the edge-labeling graph, for few-shot learning.
-The previous graph neural network (GNN) approaches in
-few-shot learning have been based on the node-labeling
-framework, which implicitly models the intra-cluster similarity
-and the inter-cluster dissimilarity. In contrast, the
-proposed EGNN learns to predict the edge-labels rather
-than the node-labels on the graph that enables the evolution
-of an explicit clustering by iteratively updating the edgelabels
-with direct exploitation of both intra-cluster similarity
-and the inter-cluster dissimilarity. It is also well suited
-for performing on various numbers of classes without retraining,
-and can be easily extended to perform a transductive
-inference. The parameters of the EGNN are learned
-by episodic training with an edge-labeling loss to obtain a
-well-generalizable model for unseen low-data problem. On
-both of the supervised and semi-supervised few-shot image
-classification tasks with two benchmark datasets, the proposed
-EGNN significantly improves the performances over
-the existing GNNs.
-
-### Citation
-If you find this code useful you can cite us using the following bibTex:
-```
-@article{kim2019egnn,
-  title={Edge-labeling Graph Neural Network for Few-shot Learning},
-  author={Jongmin Kim, Taesup Kim, Sungwoong Kim, Chang D. Yoo},
-  journal={arXiv preprint arXiv:1905.01436},
-  year={2019}
-}
-```
-
+Limit Order Book (LOB) has generated “big financial data” for analysis and prediction from both academic community and industry practitioners.  This paper presents a benchmark LOB dataset of China stock market, covering a few thousand stocks for the period of June to September 2020.  Experiment protocols are designed for model performance evaluation: at the end of every second, to forecast the upcoming volume-weighted average price (VWAP) change and volume over 12 horizons ranging from 1 second to 300 seconds. Results based on linear regression model and state-of-the-art deep learning models are compared. Practical short-term trading strategy framework based on the alpha signal generated is presented. 
 
 ### Platform
-This code was developed and tested with pytorch version 1.0.1
+This code was developed and tested with pytorch version 1.7.0
 
 ### Setting
 
-You can download miniImagenet dataset from [here](https://drive.google.com/open?id=15WuREBvhEbSWo4fTr1r-vMY0C_6QWv4w).
+You can download lob dataset from [here](https://github.com/hkgsas/LOB).
 
 Download 'mini_imagenet_train/val/test.pickle', and put them in the path 
 'tt.arg.dataset_root/mini-imagenet/compacted_dataset/'
