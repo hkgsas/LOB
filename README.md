@@ -31,9 +31,9 @@ Limit Order Book (LOB) has generated “big financial data” for analysis and p
 ### Keywords 
 High-Frequency Trading, Limit Order Book, Artificial Intelligence, Machine Learning, Deep Neural Network, Short-Term Price Prediction, Alpha Signal, Trading Strategies, China Stock Market
 
-### Pipeline
-0. Pipeline of the proposed selective joint fine-tuning:
-	![Selective Joint Fine-tuning Pipeline](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/cvpr2017_img1.png)
+### Models
+0. Configuration of the linear regression model:
+	![Linear Regression](https://github.com/hkgsas/LOB/blob/master/lr.png)
 
 
 ### Codes and Installation
