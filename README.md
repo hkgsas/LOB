@@ -11,7 +11,6 @@ contact@gsas.edu.hk
 0. [Introduction](#introduction)
 0. [Abstract](#abstract)
 0. [Keywords](#keywords)
-0. [Codes and Installation](#codes-and-installation)
 0. [Models](#models)
 0. [Results](#results)
 
@@ -35,8 +34,19 @@ High-Frequency Trading, Limit Order Book, Artificial Intelligence, Machine Learn
 0. Configuration of the linear regression model:
 	![Linear Regression](https://github.com/hkgsas/LOB/blob/master/lr.png)
 
+0. Configuration of the multilayer perceptron model:
+	![Multilayer Perceptron](https://github.com/hkgsas/LOB/blob/master/mlp.png)
+	
+0. Configuration of the shallow LSTM model:
+	![Long Short Term Memory](https://github.com/hkgsas/LOB/blob/master/mlp.png)
+	
+0. Configuration of the CNN model:
+	![Convolutional Neural Network](https://github.com/hkgsas/LOB/blob/master/cnn.png)
 
-### Codes and Installation
+0. Configuration of the CNN-LSTM model:
+	![CNN-LSTM](https://github.com/hkgsas/LOB/blob/master/cnnlstm.png)
+
+### Installation and Usage
 0. Add new layers into Caffe:
 	- [caffe.proto](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/caffe_proto_additional.txt)
 	- [MergeData](https://github.com/ZYYSzj/Selective-Joint-Fine-tuning/blob/master/selective_joint_ft/additional_layers/merge_data_layer.hpp)
