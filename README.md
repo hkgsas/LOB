@@ -21,8 +21,8 @@ This repository contains the dataset and [codes](https://github.com/hkgsas/LOB/t
 
 **Note**
 
-0. All algorithms are implemented based on the deep learning framework [Caffe](https://github.com/BVLC/caffe).
-0. Please add the additional layers used into your own Caffe to run the training codes.
+0. All algorithms are implemented based on the deep learning framework [PyTorch](https://pytorch.org/).
+0. Please .
 
 ### Citation
 
