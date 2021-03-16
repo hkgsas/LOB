@@ -12,7 +12,7 @@ contact@gsas.edu.hk
 1. [Abstract](#abstract)
 2. [Keywords](#keywords)
 3. [Models](#models)
-4. [Results](#results)
+4. [Installation and Usage](#install)
 5. [Results](#results)
 
 ### Introduction
@@ -49,6 +49,18 @@ High-Frequency Trading, Limit Order Book, Artificial Intelligence, Machine Learn
 
 ### Installation and Usage
 Please refer to the [ReadMe.txt](https://github.com/hkgsas/LOB/blob/master/lob_modeling/README.md) in ./lob_modeling to install and run experiments.
+The folder structure of the LOB dataset is like the following.
+```
+   .\LOB_data
+         .\2020.6
+	 .\2020.7
+	 .\2020.8
+	 .\2020.9
+	 lob_sz_6789_train_val.txt
+	 lob_sz_678_train.txt
+	 lob_sz_9_val.txt
+	 
+```
 
 ### Results
 
