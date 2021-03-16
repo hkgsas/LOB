@@ -58,8 +58,7 @@ The folder structure of the LOB dataset is like the following.
 	 .\2020.9
 	 lob_sz_6789_train_val.txt
 	 lob_sz_678_train.txt
-	 lob_sz_9_val.txt
-	 
+	 lob_sz_9_val.txt 
 ```
 
 ### Results
