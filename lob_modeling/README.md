@@ -18,16 +18,15 @@ This code was developed and tested with pytorch version 1.7.0
 
 ### Setting
 
-You can download lob dataset from [here](https://github.com/hkgsas/LOB) and unzip it into your destination folder.
+You can download lob dataset from [here](https://github.com/hkgsas/LOB).
   
-
-
-
 Download the dataset, and put them in the path 
 'tt.arg.dataset_root/'
 
 In ```train.py```, replace the dataset root directory with your own:
 tt.arg.dataset_root = './LOB_data/'
+
+
 
 
 ### Training
