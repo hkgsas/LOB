@@ -426,7 +426,7 @@ if __name__ == '__main__':
         raise Exception("Invalid model type!")        
 
 
-    train_dataset= SequentialDataLoader(root='/data/wfge/ai_projects/dataset/LOB_data/', 
+    train_dataset= SequentialDataLoader(root=tt.arg.dataset_root, 
                                       path='lob_sz_678_train.txt', data_dim=124, 
                                       label_dim=12, timesetp=tt.arg.timestep,    
                                       partition='Train',
@@ -440,7 +440,7 @@ if __name__ == '__main__':
                                       shuffle=True,
                                       num_workers=tt.arg.num_workers,
                                       pin_memory=True)
-    valid_dataset= SequentialDataLoader(root='/data/wfge/ai_projects/dataset/LOB_data/', 
+    valid_dataset= SequentialDataLoader(root=tt.arg.dataset_root, 
                                       path='lob_sz_9_val.txt', data_dim=124, 
                                       label_dim=12, timesetp=tt.arg.timestep,     
                                       partition='Validataion',
