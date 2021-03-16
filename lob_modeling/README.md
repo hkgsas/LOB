@@ -23,8 +23,21 @@ You can download lob dataset from [here](https://github.com/hkgsas/LOB).
 Download the dataset, and put them in the path 
 'tt.arg.dataset_root/'
 
+```
+   .\LOB_data
+         .\2020.6
+	 .\2020.7
+	 .\2020.8
+	 .\2020.9
+	 lob_sz_6789_train_val.txt
+	 lob_sz_678_train.txt
+	 lob_sz_9_val.txt 
+```
+
+
 In ```train.py```, replace the dataset root directory with your own:
 tt.arg.dataset_root = './LOB_data/'
+
 
 
 
