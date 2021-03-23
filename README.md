@@ -47,8 +47,7 @@ High-Frequency Trading, Limit Order Book, Artificial Intelligence, Machine Learn
 0. Configuration of the CNN-LSTM model:
 	![CNN-LSTM](https://github.com/hkgsas/LOB/blob/master/cnnlstm.png)
 
-### Installation and Usage
-Please refer to the [ReadMe.txt](https://github.com/hkgsas/LOB/blob/master/lob_modeling/README.md) in ./lob_modeling to install and run experiments.
+### Data Format
 The folder structure of the LOB dataset is like the following.
 ```
    .\LOB_data
@@ -62,6 +61,10 @@ The folder structure of the LOB dataset is like the following.
 ```
 "lob_sz_678_train.txt" is the file list used to train the machine learning models, and "lob_sz_9_val.txt" is the file list used to test the accuracy as the validation. In each folder under ".\LOB_data", there are monthly LOB data in ".csv" format for many different stocks.
 
+
+
+### Installation and Usage
+Please refer to the [ReadMe.txt](https://github.com/hkgsas/LOB/blob/master/lob_modeling/README.md) in ./lob_modeling to install and run experiments.
 
 
 ### Results
