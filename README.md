@@ -12,8 +12,9 @@ contact@gsas.edu.hk
 1. [Abstract](#abstract)
 2. [Keywords](#keywords)
 3. [Models](#models)
-4. [Installation and Usage](#install)
-5. [Results](#results)
+4. [Data Format](#data)
+5. [Installation and Usage](#install)
+6. [Results](#results)
 
 ### Introduction
 
@@ -48,7 +49,7 @@ High-Frequency Trading, Limit Order Book, Artificial Intelligence, Machine Learn
 	![CNN-LSTM](https://github.com/hkgsas/LOB/blob/master/cnnlstm.png)
 
 ### Data Format
-The folder structure of the LOB dataset is like the following.
+The folder structure of the LOB [dataset](https://drive.google.com/file/d/13xgOAXhVa1QhZLg4DaqWwbCZVNhXNKiw/view?usp=sharing) is like the following.
 ```
    .\LOB_data
          .\2020.6
