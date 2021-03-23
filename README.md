@@ -62,7 +62,7 @@ The folder structure of the LOB [dataset](https://drive.google.com/file/d/13xgOA
 ```
 "lob_sz_678_train.txt" is the file list used to train the machine learning models, and "lob_sz_9_val.txt" is the file list used to test the accuracy as the validation. In each folder under ".\LOB_data", there are monthly LOB data in ".csv" format for many different stocks.
 
-In a LOB data file, each row stores all information of one stock in the limit order book. 
+In a LOB data file, each row stores all information of one stock. 
 
 
 
