@@ -60,7 +60,7 @@ The folder structure of the LOB [dataset](https://drive.google.com/file/d/13xgOA
 	 lob_sz_678_train.txt
 	 lob_sz_9_val.txt 
 ```
-"lob_sz_678_train.txt" is the file list used to train the machine learning models, and "lob_sz_9_val.txt" is the file list used to test the accuracy as the validation. In each folder under ".\LOB_data", there are monthly LOB features in ".csv" format for many different stocks. These ".csv" files store all the LOB features of stocks row by row consecutively. The detailed explaination of these LOB features can be found here (in English and in [Chinese](https://github.com/hkgsas/LOB/blob/master/lob_x_y%E8%AF%B4%E6%98%8E%E5%90%AB%E5%BD%92%E4%B8%80%E5%8C%96%E5%A4%84%E7%90%86.xlsx)).
+"lob_sz_678_train.txt" is the file list used to train the machine learning models, and "lob_sz_9_val.txt" is the file list used to test the accuracy as the validation. In each folder under ".\LOB_data", there are monthly LOB features in ".csv" format for many different stocks. These ".csv" files store all the LOB features of stocks row by row consecutively. The detailed explaination of these LOB features can be found here (in [English](https://github.com/hkgsas/LOB/blob/master/lob_x_y_explaination_v1.xlsx) and in [Chinese](https://github.com/hkgsas/LOB/blob/master/lob_x_y%E8%AF%B4%E6%98%8E%E5%90%AB%E5%BD%92%E4%B8%80%E5%8C%96%E5%A4%84%E7%90%86.xlsx)).
 
 
 
